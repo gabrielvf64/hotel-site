@@ -58,6 +58,26 @@ p {
   color: #333;
 }
 
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-principal {
+  background: #333;
+  color: #f7c08a;
+}
+
 /* Barra de navegação */
 #navbar {
   background: #333;
@@ -97,7 +117,7 @@ p {
 
 /* Principal */
 #principal {
-  background: url('../img/principal.jpg') no-repeat center center/cover;
+  background: url("../img/principal.jpg") no-repeat center center/cover;
   height: 600px;
 }
 
@@ -110,4 +130,29 @@ p {
 #principal .conteudo-principal p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  background: url("../img/foto-1.jpg") no-repeat;
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#home-info .info-conteudo {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-conteudo p {
+  padding-bottom: 30px;
 }
