@@ -235,6 +235,33 @@ p {
   border-radius: 50%;
 }
 
+#formulario-de-contato .form-group {
+  margin-bottom: 20px;
+}
+
+#formulario-de-contato label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#formulario-de-contato input,
+#formulario-de-contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+/* ESTILO PARA O ESTADO FOCUS/CLICADO */
+#formulario-de-contato input:focus,
+#formulario-de-contato textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#formulario-de-contato textarea {
+  height: 200px;
+}
+
 /* Footer */
 #footer {
   text-align: center;

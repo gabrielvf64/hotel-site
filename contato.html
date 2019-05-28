@@ -8,6 +8,8 @@
   <!--Duas metas que ajudam nos mecanismos de busca-->
   <meta name="description" content="Seja bem-vindo ao melhor hotel da região">
   <meta name="keywords" content="hotel, suite, niteroi, conforto, barato, bom">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <title>Hotel | Contato</title>
 </head>
@@ -25,6 +27,48 @@
       </div>
     </nav>
   </header>
+
+  <section id="formulario-de-contato" class="py-3">
+    <div class="container">
+      <h1 class="cabecalho-maior"><span class=texto-primario>Entre</span> em contato</h1>
+      <p>Por favor, preencha o formulário abaixo para entrar em contato</p>
+    </div>
+    <form action="process.php">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <section id="contato-info" class="bg-dark">
+    <div class="container">
+      <div class="box">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3>Endereço</h3>
+        <p>Rua Qualquer 500, Niterói RJ</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-phone fa-3x"></i>
+        <h3>Telefone</h3>
+        <p>+55 (21) 2222-3333</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-envelope fa-3x"></i>
+        <h3>E-mail</h3>
+        <p>hotelqualquer@hotel.com</p>
+      </div>
+    </div>
+  </section>
 
   <footer id="footer">
     <p>Gabriel´s Hotel &copy; 2019, Todos os direitos reservados</p>
