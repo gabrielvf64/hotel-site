@@ -1,0 +1,32 @@
+/* Barra de navegação mobile */
+
+#navbar .logo {
+  float: none; 
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* Informações na home*/
+#home-info .info-img{
+  height: 550px;
+  display: none;
+}
+
+#home-info .info-conteudo {
+  float: none;
+  width: 100%;  
+}
+
+/* Localização, café, ...*/
+.box {
+  float: none;
+  width: 100%;
+}
