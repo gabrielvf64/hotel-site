@@ -14,6 +14,17 @@
   border-bottom: #444 dotted 1px;
 }
 
+/* Conteudo principal da home */
+
+#principal {
+  height: 100%;
+}
+
+#principal .conteudo-principal {
+  padding-top: 50px;
+  padding-bottom: 30px
+}
+
 /* Informações na home*/
 #home-info .info-img{
   height: 550px;
@@ -30,3 +41,24 @@
   float: none;
   width: 100%;
 }
+
+/* Informações na página sobre */
+#sobre-info .info-direita,
+#sobre-info .info-esquerda {
+  float: none;
+  width: 100%;
+}
+
+#sobre-info .info-direita {
+  margin-top: 30px;
+}
+
+.cabecalho-maior {  
+  text-align: center;
+}
+
+/* Contato mobile */
+#contato-info .box {
+  border-bottom: #444 dotted 1px;
+}
+
